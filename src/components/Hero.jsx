@@ -25,7 +25,7 @@ const Hero = () => {
             Hi, I'm{" "}
             <span className="text-blue-600 dark:text-blue-400">
               {/* 👉 Change to your name */}
-              Your Name
+              Anshika Sharma
             </span>
           </h1>
 
@@ -35,8 +35,8 @@ const Hero = () => {
                        dark:text-gray-300 mb-8 max-w-3xl mx-auto"
           >
             {/* 👉 Change this to your tagline */}
-            Full-Stack Developer crafting modern web experiences with React and
-            Node.js
+            Full-Stack Developer specializing in building responsive, interactive, and scalable
+            web applications using MERN Stack.
           </p>
 
           {/* --- Call to Action Buttons --- */}

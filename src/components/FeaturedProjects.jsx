@@ -11,7 +11,7 @@ const FeaturedProjects = () => {
         {/* Section Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-3">
-            Featured Projects
+            Projects
           </h2>
           <div className="w-16 h-1 bg-blue-600 dark:bg-blue-400 mx-auto mb-4"></div>
           <p className="text-gray-600 dark:text-gray-300">

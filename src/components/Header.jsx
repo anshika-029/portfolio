@@ -1,36 +1,43 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { href, Link } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  // Smooth scroll function
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+    setIsMenuOpen(false); // close mobile menu if open
+  };
+
   return (
     <header className="bg-white dark:bg-slate-800 shadow-sm sticky top-0 z-50 transition-colors duration-300">
       <nav className="max-w-6xl mx-auto px-4 flex justify-between items-center h-16">
-        
+
         {/* Logo */}
-        <Link
-          to="/"
-          className="text-xl font-bold text-gray-900 dark:text-white"
-          onClick={() => setIsMenuOpen(false)}
+        <Link to="/"
+          className="text-xl font-bold text-gray-900 dark:text-white cursor-pointer"
+          onClick={() => scrollToSection("top")}
         >
-          Your Name
+          Anshika Sharma
         </Link>
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center space-x-6">
-          <a href="#about" className="nav-link">About</a>
-          <a href="#skills" className="nav-link">Skills</a>
-          <a href="#projects" className="nav-link">Projects</a>
-          <a href="#contact" className="nav-link">Contact</a>
+          <button className="nav-link" onClick={() => scrollToSection("about")}>About</button>
+          <button className="nav-link" onClick={() => scrollToSection("skills")}>Skills</button>
+          <button className="nav-link" onClick={() => scrollToSection("projects")}>Projects</button>
+          <button className="nav-link" onClick={() => scrollToSection("contact")}>Contact</button>
 
-          {/* Theme + Resume */}
-          {/* <ThemeToggle /> */}
-          <a
+          {/* Resume */}
+          <a 
             href="https://drive.google.com/your-resume-link"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-primary"
+            className="btn-primary bg-blue-950 p-2 border-2 rounded-2xl hover:bg-blue-700"
           >
             View Resume
           </a>
@@ -48,10 +55,10 @@ const Header = () => {
       {/* Mobile Nav */}
       {isMenuOpen && (
         <div className="md:hidden bg-white dark:bg-slate-800 border-t border-gray-200 dark:border-slate-700 px-4 py-4 space-y-3">
-          <a href="#about" className="mobile-link" onClick={() => setIsMenuOpen(false)}>About</a>
-          <a href="#skills" className="mobile-link" onClick={() => setIsMenuOpen(false)}>Skills</a>
-          <a href="#projects" className="mobile-link" onClick={() => setIsMenuOpen(false)}>Projects</a>
-          <a href="#contact" className="mobile-link" onClick={() => setIsMenuOpen(false)}>Contact</a>
+          <button className="mobile-link w-full text-left" onClick={() => scrollToSection("about")}>About</button>
+          <button className="mobile-link w-full text-left" onClick={() => scrollToSection("skills")}>Skills</button>
+          <button className="mobile-link w-full text-left" onClick={() => scrollToSection("projects")}>Projects</button>
+          <button className="mobile-link w-full text-left" onClick={() => scrollToSection("contact")}>Contact</button>
           <a
             href="https://drive.google.com/your-resume-link"
             target="_blank"

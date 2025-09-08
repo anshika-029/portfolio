@@ -14,7 +14,7 @@ const Contact = () => {
           </h2>
           <div className="w-20 h-1 bg-blue-600 dark:bg-blue-400 mx-auto"></div>
           <p className="mt-6 text-lg text-gray-600 dark:text-gray-300">
-            Have a question or want to work together? Drop me a message!
+            Have a question or any opportunity to work together or just want to say hi? Drop me a message!
           </p>
         </div>
 

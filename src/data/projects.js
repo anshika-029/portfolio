@@ -2,49 +2,39 @@
 export const projects = [
   {
     id: 1,
-    slug: 'trimurl',
-    title: 'TrimURL',
-    shortDescription: 'URL shortener with user history and analytics (React + Node/Express + MongoDB)',
-    fullDescription: 'A comprehensive URL shortening service that transforms long URLs into clean, shareable links while providing detailed analytics and user management. Designed to compete with services like bit.ly with enhanced performance and user experience.',
-    technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'JWT', 'Chart.js'],
-    category: 'featured',
-    demoUrl: 'https://trimurl-demo.vercel.app',
-    githubUrl: 'https://github.com/yourusername/trimurl',
-    image: '/projects/trimurl-preview.jpg',
-    featured: true,
-    highlights: [
-      '🎯 Problem: Long URLs are unwieldy to share and impossible to track',
-      '⚡ Solution: Built full-stack service with instant shortening and real-time analytics',
-      '🛠️ Implementation: RESTful API with React dashboard and MongoDB for data persistence'
-    ],
-    metrics: {
-      users: '500+',
-      urlsShortened: '10K+',
-      performance: '99.9% uptime'
-    }
+    slug: 'web-ui',
+    title: 'Web UI',
+    shortDescription: 'Responsive website with interactive components built using React.js',
+    fullDescription: 'Built a responsive static website using React.js, improving navigation speed and usability across devices and screen sizes. Developed 6 interactive components, enhancing user engagement and site interactivity. Applied component-based architecture and responsive design principles, delivering a polished, user-friendly interface.',
+    technologies: ['React.js', 'HTML', 'CSS', 'JavaScript', 'Media Queries'],
+    demoUrl: 'https://biznivate-xtsx.vercel.app/',
+    githubUrl: 'https://github.com/anshika-029/Biznivate', 
+    image: '/projects/web-ui-preview.jpg', // Replace with project screenshot path
+    featured: true
   },
   {
     id: 2,
-    slug: 'taskflow-dashboard',
-    title: 'TaskFlow',
-    shortDescription: 'Project management dashboard with drag-and-drop boards and real-time collaboration (React + TypeScript + Socket.io)',
-    fullDescription: 'An intuitive project management dashboard featuring drag-and-drop Kanban boards, real-time team collaboration, and comprehensive project tracking. Built with modern React patterns and designed for seamless team workflows.',
-    technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Socket.io', 'Node.js', 'PostgreSQL'],
-    category: 'featured',
-    demoUrl: 'https://taskflow-demo.netlify.app',
-    githubUrl: 'https://github.com/yourusername/taskflow-dashboard',
-    image: '/projects/taskflow-preview.jpg',
-    featured: true,
-    highlights: [
-      '🎯 Problem: Teams struggle with fragmented project management tools',
-      '⚡ Solution: Created unified dashboard with drag-and-drop boards and live updates',
-      '🛠️ Implementation: TypeScript for type safety, Socket.io for real-time features'
-    ],
-    metrics: {
-      tasks: '1000+',
-      teams: '50+',
-      satisfaction: '4.8/5 rating'
-    }
+    slug: 'trimurl',
+    title: 'TrimURL',
+    shortDescription: 'Full-stack URL shortener with Next.js, Node.js, Express, and MongoDB',
+    fullDescription: 'Built a full-stack URL shortener enabling users to create and manage 100+ links in real-time. Implemented REST APIs and optimized performance for cross-device responsiveness and accessibility. Deployed on Vercel with Git version control, gaining experience in full-stack development and API integration.',
+    technologies: ['Next.js', 'Node.js', 'Express.js', 'MongoDB', 'JavaScript', 'REST API', 'HTML', 'Tailwind CSS'],
+    demoUrl: 'https://trim-url-wy4d.vercel.app/',
+    githubUrl: 'https://github.com/anshika-029/TrimURL',
+    image: '/projects/trimurl-preview.jpg',
+    featured: true
+  },
+  {
+    id: 3,
+    slug: 'portfolio-website',
+    title: 'Portfolio Website',
+    shortDescription: 'Responsive personal portfolio using React.js and Tailwind CSS',
+    fullDescription: 'Built a responsive personal portfolio showcasing projects, skills, and contact information. Applied component-based architecture, routing, and responsive design principles to deliver a clean, user-friendly interface. Implemented featured projects and mini-projects gallery providing live demos and GitHub links for all applications.',
+    technologies: ['React.js', 'Tailwind CSS', 'JavaScript (ES6+)', 'HTML', 'CSS', 'React Router'],
+    demoUrl: 'https://your-portfolio-demo-link.com', // Replace with actual link
+    githubUrl: 'https://github.com/anshika-029/portfolio', // Replace with GitHub repo
+    image: '/projects/portfolio-preview.jpg',
+    featured: true
   },
   {
     id: 3,
