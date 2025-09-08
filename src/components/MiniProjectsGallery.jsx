@@ -37,6 +37,19 @@ const MiniProjectsGallery = () => {
                   {project.oneLineDescription}
                 </p>
 
+                {/* Technologies */}
+                <div className="flex flex-wrap gap-2 mb-3">
+                  {project.technologies?.map((tech, idx) => (
+                    <span
+                      key={idx}
+                      className="px-2 py-1 bg-blue-50 text-blue-700 rounded-full text-[10px] font-medium border border-blue-200"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+
+                {/* Buttons */}
                 <div className="flex space-x-2">
                   <a
                     href={project.demoUrl}
