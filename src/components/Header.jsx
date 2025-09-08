@@ -34,7 +34,7 @@ const Header = () => {
 
           {/* Resume */}
           <a 
-            href="https://drive.google.com/your-resume-link"
+            href="https://drive.google.com/file/d/1JaWLPV2_jlvvIqdi4lOtf1dOTqeq9d4H/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary bg-blue-950 p-2 border-2 rounded-2xl hover:bg-blue-700"

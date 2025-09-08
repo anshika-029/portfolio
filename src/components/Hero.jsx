@@ -54,9 +54,9 @@ const Hero = () => {
               View Projects
             </button>
 
-            {/* Button 2: Resume (opens Google Drive link in new tab) */}
+            {/* Button 2: Resume  */}
             <a
-              href="https://drive.google.com/your-resume-link" // 👉 Replace with your actual drive link
+              href="https://drive.google.com/file/d/1JaWLPV2_jlvvIqdi4lOtf1dOTqeq9d4H/view?usp=sharing" 
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto bg-gray-200 hover:bg-gray-300 

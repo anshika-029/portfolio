@@ -210,7 +210,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-Built with ❤️ using React, Vite, and Tailwind CSS+ Vite
+Built with React, Vite, and Tailwind CSS+ Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

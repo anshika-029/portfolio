@@ -8,7 +8,7 @@ export const projects = [
     technologies: ['React.js', 'HTML', 'CSS', 'JavaScript', 'Media Queries'],
     demoUrl: 'https://biznivate-xtsx.vercel.app/',
     githubUrl: 'https://github.com/anshika-029/Biznivate', 
-    image: '/projects/web-ui-preview.jpg', // Replace with project screenshot path
+    image: '/assets/webui.png', // Replace with project screenshot path
     featured: true
   },
   {
@@ -19,7 +19,7 @@ export const projects = [
     technologies: ['Next.js', 'Node.js', 'Express.js', 'MongoDB', 'JavaScript', 'REST API', 'HTML', 'Tailwind CSS'],
     demoUrl: 'https://trim-url-wy4d.vercel.app/',
     githubUrl: 'https://github.com/anshika-029/TrimURL',
-    image: '/projects/trimurl-preview.jpg',
+    image: '/assets/trimurl.png',
     featured: true
   },
   {
@@ -28,9 +28,9 @@ export const projects = [
     title: 'Portfolio Website',
     shortDescription: 'Responsive personal portfolio using React.js and Tailwind CSS',
     technologies: ['React.js', 'Tailwind CSS', 'JavaScript (ES6+)', 'HTML', 'CSS', 'React Router'],
-    demoUrl: 'https://your-portfolio-demo-link.com', // Replace with actual link
+    demoUrl: 'https://portfolio-two-rho-i5fiq9lj4m.vercel.app/', // Replace with actual link
     githubUrl: 'https://github.com/anshika-029/portfolio', // Replace with GitHub repo
-    image: '/projects/portfolio-preview.jpg',
+    image: '/assets/portfolio.png',
     featured: true
   },
   {
@@ -42,7 +42,7 @@ export const projects = [
     category: 'mini',
     demoUrl: 'https://react-showcase-hw54.vercel.app/',
     githubUrl: 'https://github.com/anshika-029/react-showcase/tree/main/apiroutes',
-    image: '/projects/api-routes-preview.jpg',
+    image: '/assets/apiroutes.png',
     featured: false,
   },
   {
@@ -55,7 +55,7 @@ export const projects = [
     category: 'mini',
     demoUrl: 'https://react-showcase-gtvh.vercel.app/',
     githubUrl: 'https://github.com/anshika-029/react-showcase/tree/main/pagination',
-    image: '/projects/pagination-preview.jpg',
+    image: '/assets/pagination.png',
     featured: false,
   },
   {
@@ -67,7 +67,7 @@ export const projects = [
     category: 'mini',
     demoUrl: 'https://react-showcase-75ug.vercel.app/',
     githubUrl: 'https://github.com/anshika-029/react-showcase/tree/main/searchbar',
-    image: '/projects/searchbar-preview.jpg',
+    image: '/assets/searchbar.png',
     featured: false,
   },
   {
@@ -79,7 +79,7 @@ export const projects = [
     category: 'mini',
     demoUrl: 'https://react-showcase-24ek.vercel.app/',
     githubUrl: 'https://github.com/anshika-029/react-showcase/tree/main/filteration',
-    image: '/projects/filteration-preview.jpg',
+    image: '/assets/filteration.png',
     featured: false,
   },
   {
@@ -91,7 +91,7 @@ export const projects = [
     category: 'mini',
     demoUrl: 'https://react-showcase-1qce.vercel.app/',
     githubUrl: 'https://github.com/anshika-029/react-showcase/tree/main/formhandling',
-    image: '/projects/form-handling-preview.jpg',
+    image: '/assets/formhandling.png',
     featured: false,
   },
   {
@@ -103,7 +103,7 @@ export const projects = [
     category: 'mini',
     demoUrl: 'https://react-showcase-r5xc.vercel.app/',
     githubUrl: 'https://github.com/anshika-029/react-showcase/tree/main/todo',
-    image: '/projects/todo-preview.jpg',
+    image: '/assets/todoo.png',
     featured: false,
   },
   {
@@ -115,7 +115,7 @@ export const projects = [
     category: 'mini',
     demoUrl: 'https://react-showcase-xi.vercel.app/',
     githubUrl: 'https://github.com/anshika-029/react-showcase/tree/main/countertoggle',
-    image: '/projects/counter-toggle-preview.jpg',
+    image: '/assets/counter.png',
     featured: false,
   },
 ];

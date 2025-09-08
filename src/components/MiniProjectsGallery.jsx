@@ -3,15 +3,15 @@ import { miniProjects } from '../data/projects';
 
 const MiniProjectsGallery = () => {
   return (
-    <section id="mini-projects" className="py-20 bg-white">
+    <section id="mini-projects" className="py-20 bg-slate-700">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl lg:text-4xl font-bold text-gray-950 mb-4">
             Mini Projects
           </h2>
-          <div className="w-20 h-1 bg-blue-600 mx-auto mb-4"></div>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <div className="w-20 h-1 bg-blue-950 mx-auto mb-4"></div>
+          <p className="text-lg max-w-2xl mx-auto">
             A showcase of small projects demonstrating various skills
           </p>
         </div>
@@ -24,9 +24,14 @@ const MiniProjectsGallery = () => {
               className="bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-200 overflow-hidden border border-gray-200"
             >
               {/* Project Image */}
-              <div className="relative h-40 bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-2xl font-bold">
-                Screenshot
+              <div className="relative h-40 w-full overflow-hidden">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="h-full w-full object-cover"
+                />
               </div>
+
 
               {/* Project Content */}
               <div className="p-4">
